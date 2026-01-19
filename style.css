@@ -115,11 +115,16 @@ body{
     text-align: center;
     margin: 0 auto;
     color: white;
-    background-color: #412567;}
+    background-color: #351165;
+     max-width: 1600px;}
+    
 .summary{
     display: flex;
     justify-content: space-between;
     text-align: center;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #351165;
 }
 
 
@@ -194,11 +199,46 @@ body{
 }
 
 
+
+
+
+.class-3{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.class-1{
+    background-color: #1A0B2E;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.class-1 h1{
+    text-align: center;
+    color: #dad1d1;
+
+}
+.class-2{
+    border: 2px solid black;
+    max-width: 400px;
+    border-radius: 20px;
+}
+.class-2 h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.class-2 p{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+
 @media screen and (max-width:576px)
 {
   .navbar{
     display: flex;
     justify-content: space-around;
     margin:auto;
-    background-color:red;}
+    background-color:#1A0B2E}
 }
