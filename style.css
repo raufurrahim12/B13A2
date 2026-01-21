@@ -266,7 +266,7 @@ body{
 .one-file{
     max-width: 1600px;
     background-color: #1A0B2E;
-    margin: 0 auto;
+    margin: 0 auto;}
     
 .two-file{
     font-size: 48px;
@@ -288,6 +288,16 @@ body{
     margin: 0 auto;
     color: white;
 
+}
+
+.icons{
+    background-image: url(./assets/footer-bg.png);
+    max-width: 1600px;
+    height: 412px;
+    padding-top: 150px;
+    margin:auto;
+    text-align: center;
+    color: aliceblue;
 }
 
 
